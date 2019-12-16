@@ -1,0 +1,52 @@
+<template lang="pug">
+.two
+  .main-img
+    img(src="@|bg-h5.jpg|")
+  .content
+    .right
+  .bottom-bar
+    img.last(src="@|last.png|" :tap="owo.go('one', 'rotateLeftSideFirst', 'moveFromLeft&&delay200', 'rotateRightSideFirst', 'moveFromRight&&delay200')")
+    img.next(src="@|next.png|" :tap="owo.go('three', 'rotateRightSideFirst', 'moveFromRight&&delay200', 'rotateLeftSideFirst', 'moveFromLeft&&delay200')")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+<style lang="less">
+.right {
+  width: 80vw;
+  overflow: hidden;
+  margin: 0 auto;
+  .top {
+    height: 21vh;
+    background-image: url("@|title.png|");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 10vw;
+    p {
+      color: #202021;
+      font-size: 16px;
+      line-height: 26px;
+      position: absolute;
+      width: 65vw;
+      right: 0;
+    }
+  }
+  .bottom {
+    height: 36vw;
+    overflow: hidden;
+    border-radius: 5px;
+    a, img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+</style>

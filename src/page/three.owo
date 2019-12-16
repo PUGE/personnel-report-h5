@@ -1,0 +1,24 @@
+<template lang="pug">
+.three
+  .main-img
+    img(src="@|bg-h5.jpg|")
+  .content
+    plug(_name="tagCloud" _src="https://owo.ink/public/0db495367f5dbb795815438280175ad7.page")
+  .bottom-bar
+    img.last(src="@|last.png|" :tap="owo.go('two', 'rotateLeftSideFirst', 'moveFromLeft&&delay200', 'rotateRightSideFirst', 'moveFromRight&&delay200')")
+    img.next(src="@|next.png|" :tap="owo.go('four', 'rotateRightSideFirst', 'moveFromRight&&delay200', 'rotateLeftSideFirst', 'moveFromLeft&&delay200')")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+<style lang="less">
+.owo-tagCloud, .tag-cloud-box {
+  height: 100%;
+}
+</style>

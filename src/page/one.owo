@@ -1,0 +1,166 @@
+<template lang="pug">
+.one
+  .main-img
+    img(src="@|bg-h5.jpg|")
+  .content
+    h2 2019全年人事月历
+    .label-box.clear
+      .item.active
+        span 一月
+        .data
+          .top
+            p 一月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 二月
+        .data
+          .top
+            p 二月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 三月
+        .data
+          .top
+            p 三月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 四月
+        .data
+          .top
+            p 四月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 五月
+        .data
+          .top
+            p 五月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 六月
+        .data
+          .top
+            p 六月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 七月
+        .data
+          .top
+            p 七月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 八月
+        .data
+          .top
+            p 八月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 九月
+        .data
+          .top
+            p 九月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 十月
+        .data
+          .top
+            p 十月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 十一月
+        .data
+          .top
+            p 十一月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+      .item
+        span 十二月
+        .data
+          .top
+            p 十二月十八届三中全会所描绘的蓝图将如何谋划布局，万众瞩目。关于两会，网友们最想知道什么？哪些两会话题最受网友关注？
+          .bottom
+            a(href="#")
+              img(src="http://www.people.com.cn/NMediaFile/2019/1216/MAIN201912160637513323315160682.jpg")
+  img.next(src="@|next.png|" :tap="owo.go('two', 'rotateRightSideFirst', 'moveFromRight&&delay200', 'rotateLeftSideFirst', 'moveFromLeft&&delay200')")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.label-box {
+
+}
+.item {
+  float: left;
+  height: 6vh;
+  text-align: center;
+  background-color: #e5edf5;
+  line-height: 6vh;
+  color: #0374b3;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 24vw;
+  margin: 1vw 2vw;
+  cursor: pointer;
+  .data {
+    display: none;
+  }
+}
+.label-box {
+  width: 84vw;
+  background-color: #f8f8f9;
+  margin: 0 auto;
+}
+.content {
+  width: 90vw;
+  margin: 4vh auto;
+  height: 38vh;
+  padding-bottom: 2vh;
+  background-color: #f8f8f9;
+  h2 {
+    height: 7vh;
+    line-height: 7vh;
+    text-align: center;
+    font-size: 24px;
+    color: #0374b3;
+    font-weight: bold;
+  }
+}
+.next {
+  display: block;
+  height: 6vh;
+  display: block;
+  margin: 2vh auto;
+}
+.active {
+  background-color: #3c89d2;
+  color: white;
+}
+</style>

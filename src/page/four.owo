@@ -1,0 +1,23 @@
+<template lang="pug">
+.four
+  .main-img
+    img(src="@|bg-h5.jpg|")
+  .content
+    plug(_name="a5Jkh9zomp95ftbW" _src="https://owo.ink/public/f6f3e7e8691c2cf683f992fe7f24f22a.page")
+  .bottom-bar
+    img.last(src="@|last.png|" :tap="owo.go('three', 'rotateLeftSideFirst', 'moveFromLeft&&delay200', 'rotateRightSideFirst', 'moveFromRight&&delay200')")
+    img.next(src="@|home.png|" :tap="owo.go('one', 'rotateRightSideFirst', 'moveFromRight&&delay200', 'rotateLeftSideFirst', 'moveFromLeft&&delay200')")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+
+</style>
