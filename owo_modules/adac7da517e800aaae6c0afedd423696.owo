@@ -1,7 +1,10 @@
 <template>
   <ul>
     <li :for="item in 8">
-      <a target="_blank" href="#">雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运</a>
+      <a target="_blank" href="#">
+        <h2>雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾</h2>
+        <p>说明文字说明文字说明文字说明文字说明文字说明文字说明文字说明文字</p>
+      </a>
     </li>
   </ul>
 </template>
@@ -14,10 +17,10 @@ ul {
 li {
   color: #595757;
   line-height: 38px;
-  font-size: 15px;
   position: relative;
   cursor: pointer;
   font-weight: bold;
+  border-bottom: 1px dashed #ccc;
   a {
     color: #202021;
     text-decoration: none;
@@ -36,10 +39,17 @@ li {
 }
 li {
   overflow: hidden;
-  padding: 0 40px;
+  padding: 5px 40px;
   line-height: 30px;
-  font-size: 16px;
+  
   cursor: pointer;
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    color: #666;
+  }
 }
 a {
   color: #595757;

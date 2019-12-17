@@ -104,13 +104,6 @@
   img.next(src="@|next.png|" :tap="owo.go('two', 'rotateRightSideFirst', 'moveFromRight&&delay200', 'rotateLeftSideFirst', 'moveFromLeft&&delay200')")
 </template>
 
-<script>
-  module.exports = {
-    created: function () {
-    }
-  }
-</script>
-
 
 <style lang="less">
 .label-box {

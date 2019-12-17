@@ -35,6 +35,8 @@
       position: absolute;
       width: 65vw;
       right: 0;
+      height: 20vh;
+      overflow: auto;
     }
   }
   .bottom {

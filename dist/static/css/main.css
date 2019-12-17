@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 }
 
 .main-img {
-  height: 42vh;
+  height: 38vh;
   overflow: hidden;
   position: relative;
 }
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 }
 
 .content {
-  height: 46vh;
+  height: 52vh;
   overflow: auto;
 }
 

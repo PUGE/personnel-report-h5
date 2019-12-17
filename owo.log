@@ -1,81 +1,279 @@
-[2019-12-16T17:08:15.730] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-12-16T17:08:15.733] [INFO] default - 程序运行目录: D:\work\人事年终报道H5
-[2019-12-16T17:08:15.733] [INFO] default - 首次启动!
-[2019-12-16T17:08:15.733] [INFO] default - 生成版本号: bqm2oret3is
-[2019-12-16T17:08:15.739] [INFO] default - 清理资源文件夹: D:\work\人事年终报道H5\dist\static
-[2019-12-16T17:08:15.739] [INFO] default - 文件夹不存在: D:\work\人事年终报道H5\dist\static
-[2019-12-16T17:08:15.739] [INFO] default - 创建文件夹: D:\work\人事年终报道H5\dist\static
-[2019-12-16T17:08:15.739] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-12-16T17:08:15.740] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-12-16T17:08:15.740] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-12-16T17:08:15.741] [INFO] default - 开始处理模块: one
-[2019-12-16T17:08:16.187] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-12-16T17:08:16.222] [DEBUG] default - 页面one处理用时: 482 毫秒!
-[2019-12-16T17:08:16.223] [INFO] default - 开始处理模块: two
-[2019-12-16T17:08:16.231] [DEBUG] default - 缓存模板: two./src/page/two.owo
-[2019-12-16T17:08:16.236] [DEBUG] default - 页面two处理用时: 13 毫秒!
-[2019-12-16T17:08:16.236] [INFO] default - 开始处理模块: three
-[2019-12-16T17:08:16.244] [INFO] default - 开始处理模块: tagCloud
-[2019-12-16T17:08:16.244] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\af5a0e3300f19a05be195f4663973d3a.owo
-[2019-12-16T17:08:16.268] [DEBUG] default - 缓存模板: tagCloudhttps://owo.ink/public/0db495367f5dbb795815438280175ad7.page
-[2019-12-16T17:08:16.278] [DEBUG] default - 模块tagCloud处理用时: 34 毫秒!
-[2019-12-16T17:08:16.280] [DEBUG] default - 缓存模板: three./src/page/three.owo
-[2019-12-16T17:08:16.280] [DEBUG] default - 页面three处理用时: 44 毫秒!
-[2019-12-16T17:08:16.280] [INFO] default - 开始处理模块: four
-[2019-12-16T17:08:16.286] [INFO] default - 开始处理模块: a5Jkh9zomp95ftbW
-[2019-12-16T17:08:16.287] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\adac7da517e800aaae6c0afedd423696.owo
-[2019-12-16T17:08:16.297] [DEBUG] default - 缓存模板: a5Jkh9zomp95ftbWhttps://owo.ink/public/f6f3e7e8691c2cf683f992fe7f24f22a.page
-[2019-12-16T17:08:16.303] [DEBUG] default - 模块a5Jkh9zomp95ftbW处理用时: 17 毫秒!
-[2019-12-16T17:08:16.304] [DEBUG] default - 缓存模板: four./src/page/four.owo
-[2019-12-16T17:08:16.305] [DEBUG] default - 页面four处理用时: 25 毫秒!
-[2019-12-16T17:08:16.306] [INFO] default - 文件夹不存在: D:/work/人事年终报道H5/dist/static/resource
-[2019-12-16T17:08:16.306] [INFO] default - 创建文件夹: D:/work/人事年终报道H5/dist/static/resource
-[2019-12-16T17:08:16.307] [DEBUG] default - 处理资源:  [ 'D:/work/人事年终报道H5/src/resource/title.png' ]
-[2019-12-16T17:08:16.308] [DEBUG] default - 资源目录:  D:/work/人事年终报道H5/dist/static/resource
-[2019-12-16T17:08:16.309] [DEBUG] default - css中的资源处理完毕!
-[2019-12-16T17:08:16.794] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-12-16T17:08:16.833] [INFO] default - 文件夹不存在: D:\work\人事年终报道H5\dist\static\css
-[2019-12-16T17:08:16.833] [INFO] default - 创建文件夹: D:\work\人事年终报道H5\dist\static\css
-[2019-12-16T17:08:16.833] [INFO] default - 开始处理附属css中的资源
-[2019-12-16T17:08:16.833] [INFO] default - 附属css中的资源处理完毕!
-[2019-12-16T17:08:16.833] [INFO] default - 处理字体: {}
-[2019-12-16T17:08:16.838] [INFO] default - 使用postcss处理完毕! 用时: 44 毫秒
-[2019-12-16T17:08:16.838] [INFO] default - 正在处理script!
-[2019-12-16T17:08:17.361] [INFO] default - 工程中包含多个页面!
-[2019-12-16T17:08:17.362] [INFO] default - js中的资源处理完毕!
-[2019-12-16T17:08:17.363] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"tagcanvas.min","src":"./src/resource/tagcanvas.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-12-16T17:08:17.363] [DEBUG] default - 外部脚本数量: 3
-[2019-12-16T17:08:17.363] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-12-16T17:08:17.363] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-12-16T17:08:17.363] [DEBUG] default - 处理脚本: tagcanvas.min
-[2019-12-16T17:08:17.363] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
-[2019-12-16T17:08:17.363] [DEBUG] default - 处理脚本: main
-[2019-12-16T17:08:17.363] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\main.js
-[2019-12-16T17:08:17.363] [DEBUG] default - 输出scriptData
-[2019-12-16T17:08:17.366] [DEBUG] default - 准备输出html!
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
-[2019-12-16T17:08:17.366] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
-[2019-12-16T17:08:17.366] [DEBUG] default - 处理资源:  [ 'D:/work/人事年终报道H5/src/resource/bg-h5.jpg',
+[2019-12-17T09:00:02.787] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-17T09:00:02.790] [INFO] default - 程序运行目录: D:\work\人事年终报道H5
+[2019-12-17T09:00:02.790] [INFO] default - 首次启动!
+[2019-12-17T09:00:02.790] [INFO] default - 生成版本号: djjr9fejklb
+[2019-12-17T09:00:02.795] [INFO] default - 清理资源文件夹: D:\work\人事年终报道H5\dist\static
+[2019-12-17T09:00:02.796] [INFO] default - 文件夹不存在: D:\work\人事年终报道H5\dist\static
+[2019-12-17T09:00:02.796] [INFO] default - 创建文件夹: D:\work\人事年终报道H5\dist\static
+[2019-12-17T09:00:02.796] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-17T09:00:02.796] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-17T09:00:02.796] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-17T09:00:02.797] [INFO] default - 开始处理模块: one
+[2019-12-17T09:00:03.293] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-12-17T09:00:03.328] [DEBUG] default - 页面one处理用时: 531 毫秒!
+[2019-12-17T09:00:03.328] [INFO] default - 开始处理模块: two
+[2019-12-17T09:00:03.336] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-12-17T09:00:03.340] [DEBUG] default - 页面two处理用时: 12 毫秒!
+[2019-12-17T09:00:03.340] [INFO] default - 开始处理模块: three
+[2019-12-17T09:00:03.348] [INFO] default - 开始处理模块: tagCloud
+[2019-12-17T09:00:03.348] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\af5a0e3300f19a05be195f4663973d3a.owo
+[2019-12-17T09:00:03.372] [DEBUG] default - 缓存模板: tagCloudhttps://owo.ink/public/0db495367f5dbb795815438280175ad7.page
+[2019-12-17T09:00:03.382] [DEBUG] default - 模块tagCloud处理用时: 34 毫秒!
+[2019-12-17T09:00:03.383] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-12-17T09:00:03.384] [DEBUG] default - 页面three处理用时: 44 毫秒!
+[2019-12-17T09:00:03.384] [INFO] default - 开始处理模块: four
+[2019-12-17T09:00:03.390] [INFO] default - 开始处理模块: a5Jkh9zomp95ftbW
+[2019-12-17T09:00:03.390] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:00:03.404] [DEBUG] default - 缓存模板: a5Jkh9zomp95ftbWhttps://owo.ink/public/f6f3e7e8691c2cf683f992fe7f24f22a.page
+[2019-12-17T09:00:03.415] [DEBUG] default - 模块a5Jkh9zomp95ftbW处理用时: 25 毫秒!
+[2019-12-17T09:00:03.416] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-12-17T09:00:03.416] [DEBUG] default - 页面four处理用时: 32 毫秒!
+[2019-12-17T09:00:03.417] [INFO] default - 文件夹不存在: D:/work/人事年终报道H5/dist/static/resource
+[2019-12-17T09:00:03.418] [INFO] default - 创建文件夹: D:/work/人事年终报道H5/dist/static/resource
+[2019-12-17T09:00:03.418] [DEBUG] default - 处理资源:  [ 'D:/work/人事年终报道H5/src/resource/title.png' ]
+[2019-12-17T09:00:03.419] [DEBUG] default - 资源目录:  D:/work/人事年终报道H5/dist/static/resource
+[2019-12-17T09:00:03.421] [DEBUG] default - css中的资源处理完毕!
+[2019-12-17T09:00:03.969] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-17T09:00:04.012] [INFO] default - 文件夹不存在: D:\work\人事年终报道H5\dist\static\css
+[2019-12-17T09:00:04.013] [INFO] default - 创建文件夹: D:\work\人事年终报道H5\dist\static\css
+[2019-12-17T09:00:04.013] [INFO] default - 开始处理附属css中的资源
+[2019-12-17T09:00:04.013] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-17T09:00:04.013] [INFO] default - 处理字体: {}
+[2019-12-17T09:00:05.195] [INFO] default - 使用postcss处理完毕! 用时: 1226 毫秒
+[2019-12-17T09:00:05.196] [INFO] default - 正在处理script!
+[2019-12-17T09:00:05.829] [INFO] default - 工程中包含多个页面!
+[2019-12-17T09:00:05.830] [INFO] default - js中的资源处理完毕!
+[2019-12-17T09:00:05.830] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"tagcanvas.min","src":"./src/resource/tagcanvas.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-17T09:00:05.830] [DEBUG] default - 外部脚本数量: 3
+[2019-12-17T09:00:05.830] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-17T09:00:05.830] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-17T09:00:05.830] [DEBUG] default - 处理脚本: tagcanvas.min
+[2019-12-17T09:00:05.831] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:00:05.831] [DEBUG] default - 处理脚本: main
+[2019-12-17T09:00:05.831] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:00:05.831] [DEBUG] default - 输出scriptData
+[2019-12-17T09:00:05.832] [DEBUG] default - 准备输出html!
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:05.833] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:00:05.833] [DEBUG] default - 处理资源:  [ 'D:/work/人事年终报道H5/src/resource/bg-h5.jpg',
   'D:/work/人事年终报道H5/src/resource/next.png',
   'D:/work/人事年终报道H5/src/resource/last.png',
   'D:/work/人事年终报道H5/src/resource/home.png' ]
-[2019-12-16T17:08:17.367] [DEBUG] default - 资源目录:  D:/work/人事年终报道H5/dist/static/resource
-[2019-12-16T17:08:17.367] [DEBUG] default - 开始美化html
-[2019-12-16T17:08:17.393] [INFO] default - 文件夹不存在: D:\work\人事年终报道H5\dist\static\js
-[2019-12-16T17:08:17.394] [INFO] default - 创建文件夹: D:\work\人事年终报道H5\dist\static\js
-[2019-12-16T17:08:17.394] [INFO] default - 包含有页面切换动画!
-[2019-12-16T17:08:17.394] [INFO] default - 动画列表: rotateRightSideFirst,moveFromRight,delay200,rotateLeftSideFirst,moveFromLeft
-[2019-12-16T17:08:17.394] [INFO] default - 编译结束!
-[2019-12-16T17:08:17.411] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\owo.main.bqm2oret3is.css
-[2019-12-16T17:08:17.411] [INFO] default - 主要逻辑文件写出成功!
-[2019-12-16T17:08:17.411] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.css
-[2019-12-16T17:08:17.412] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.js
-[2019-12-16T17:08:17.523] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\main.css
-[2019-12-16T17:08:17.528] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\main.js
-[2019-12-16T17:08:17.529] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
-[2019-12-16T17:08:17.529] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\tagcanvas.min.js
+[2019-12-17T09:00:05.833] [DEBUG] default - 资源目录:  D:/work/人事年终报道H5/dist/static/resource
+[2019-12-17T09:00:05.835] [INFO] default - 文件夹不存在: D:\work\人事年终报道H5\dist\static\js
+[2019-12-17T09:00:05.835] [INFO] default - 创建文件夹: D:\work\人事年终报道H5\dist\static\js
+[2019-12-17T09:00:05.835] [INFO] default - 包含有页面切换动画!
+[2019-12-17T09:00:05.835] [INFO] default - 动画列表: rotateRightSideFirst,moveFromRight,delay200,rotateLeftSideFirst,moveFromLeft
+[2019-12-17T09:00:05.836] [INFO] default - 编译结束!
+[2019-12-17T09:00:05.837] [INFO] default - 发送页面需要刷新命令!
+[2019-12-17T09:00:05.849] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\owo.main.css
+[2019-12-17T09:00:05.850] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-17T09:00:05.850] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.css
+[2019-12-17T09:00:05.850] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:00:06.011] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\main.css
+[2019-12-17T09:00:06.019] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\main.js
+[2019-12-17T09:00:06.021] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:00:06.022] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\tagcanvas.min.js
+[2019-12-17T09:00:50.940] [INFO] default - file change: owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:00:50.940] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-17T09:00:50.940] [INFO] default - 程序运行目录: D:\work\人事年终报道H5
+[2019-12-17T09:00:50.940] [INFO] default - 刷新模式,变化目录: owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:00:50.940] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-17T09:00:50.940] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-17T09:00:50.940] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-17T09:00:50.940] [INFO] default - 开始处理模块: one
+[2019-12-17T09:00:51.005] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-12-17T09:00:51.011] [DEBUG] default - 页面one处理用时: 71 毫秒!
+[2019-12-17T09:00:51.011] [INFO] default - 开始处理模块: two
+[2019-12-17T09:00:51.019] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-12-17T09:00:51.022] [DEBUG] default - 页面two处理用时: 11 毫秒!
+[2019-12-17T09:00:51.022] [INFO] default - 开始处理模块: three
+[2019-12-17T09:00:51.039] [INFO] default - 开始处理模块: tagCloud
+[2019-12-17T09:00:51.039] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\af5a0e3300f19a05be195f4663973d3a.owo
+[2019-12-17T09:00:51.053] [DEBUG] default - 缓存模板: tagCloudhttps://owo.ink/public/0db495367f5dbb795815438280175ad7.page
+[2019-12-17T09:00:51.059] [DEBUG] default - 模块tagCloud处理用时: 20 毫秒!
+[2019-12-17T09:00:51.060] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-12-17T09:00:51.061] [DEBUG] default - 页面three处理用时: 39 毫秒!
+[2019-12-17T09:00:51.061] [INFO] default - 开始处理模块: four
+[2019-12-17T09:00:51.069] [INFO] default - 开始处理模块: a5Jkh9zomp95ftbW
+[2019-12-17T09:00:51.069] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:00:51.079] [DEBUG] default - 缓存模板: a5Jkh9zomp95ftbWhttps://owo.ink/public/f6f3e7e8691c2cf683f992fe7f24f22a.page
+[2019-12-17T09:00:51.086] [DEBUG] default - 模块a5Jkh9zomp95ftbW处理用时: 17 毫秒!
+[2019-12-17T09:00:51.086] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-12-17T09:00:51.087] [DEBUG] default - 页面four处理用时: 26 毫秒!
+[2019-12-17T09:00:51.087] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/title.png
+[2019-12-17T09:00:51.087] [DEBUG] default - css中的资源处理完毕!
+[2019-12-17T09:00:51.087] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-17T09:00:51.091] [INFO] default - 处理字体: {}
+[2019-12-17T09:00:51.093] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
+[2019-12-17T09:00:51.093] [INFO] default - 正在处理script!
+[2019-12-17T09:00:51.107] [INFO] default - 工程中包含多个页面!
+[2019-12-17T09:00:51.108] [INFO] default - js中的资源处理完毕!
+[2019-12-17T09:00:51.108] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"tagcanvas.min","src":"./src/resource/tagcanvas.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-17T09:00:51.108] [DEBUG] default - 外部脚本数量: 3
+[2019-12-17T09:00:51.108] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-17T09:00:51.108] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-17T09:00:51.108] [DEBUG] default - 处理脚本: tagcanvas.min
+[2019-12-17T09:00:51.108] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:00:51.109] [DEBUG] default - 处理脚本: main
+[2019-12-17T09:00:51.109] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:00:51.109] [DEBUG] default - 输出scriptData
+[2019-12-17T09:00:51.110] [DEBUG] default - 准备输出html!
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:00:51.110] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/home.png
+[2019-12-17T09:00:51.111] [INFO] default - 包含有页面切换动画!
+[2019-12-17T09:00:51.111] [INFO] default - 动画列表: rotateRightSideFirst,moveFromRight,delay200,rotateLeftSideFirst,moveFromLeft
+[2019-12-17T09:00:51.112] [INFO] default - 编译结束!
+[2019-12-17T09:00:51.113] [INFO] default - 发送页面需要刷新命令!
+[2019-12-17T09:00:51.114] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-17T09:00:51.114] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\owo.main.css
+[2019-12-17T09:00:51.114] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:00:51.115] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:00:51.115] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\main.js
+[2019-12-17T09:00:51.116] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\tagcanvas.min.js
+[2019-12-17T09:01:38.609] [INFO] default - file change: owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:01:38.609] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-17T09:01:38.609] [INFO] default - 程序运行目录: D:\work\人事年终报道H5
+[2019-12-17T09:01:38.609] [INFO] default - 刷新模式,变化目录: owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:01:38.609] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-17T09:01:38.610] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-17T09:01:38.610] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-17T09:01:38.610] [INFO] default - 开始处理模块: one
+[2019-12-17T09:01:38.661] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-12-17T09:01:38.664] [DEBUG] default - 页面one处理用时: 54 毫秒!
+[2019-12-17T09:01:38.664] [INFO] default - 开始处理模块: two
+[2019-12-17T09:01:38.672] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-12-17T09:01:38.675] [DEBUG] default - 页面two处理用时: 11 毫秒!
+[2019-12-17T09:01:38.675] [INFO] default - 开始处理模块: three
+[2019-12-17T09:01:38.685] [INFO] default - 开始处理模块: tagCloud
+[2019-12-17T09:01:38.686] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\af5a0e3300f19a05be195f4663973d3a.owo
+[2019-12-17T09:01:38.701] [DEBUG] default - 缓存模板: tagCloudhttps://owo.ink/public/0db495367f5dbb795815438280175ad7.page
+[2019-12-17T09:01:38.709] [DEBUG] default - 模块tagCloud处理用时: 24 毫秒!
+[2019-12-17T09:01:38.710] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-12-17T09:01:38.711] [DEBUG] default - 页面three处理用时: 36 毫秒!
+[2019-12-17T09:01:38.711] [INFO] default - 开始处理模块: four
+[2019-12-17T09:01:38.717] [INFO] default - 开始处理模块: a5Jkh9zomp95ftbW
+[2019-12-17T09:01:38.718] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:01:38.727] [DEBUG] default - 缓存模板: a5Jkh9zomp95ftbWhttps://owo.ink/public/f6f3e7e8691c2cf683f992fe7f24f22a.page
+[2019-12-17T09:01:38.734] [DEBUG] default - 模块a5Jkh9zomp95ftbW处理用时: 17 毫秒!
+[2019-12-17T09:01:38.735] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-12-17T09:01:38.735] [DEBUG] default - 页面four处理用时: 24 毫秒!
+[2019-12-17T09:01:38.735] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/title.png
+[2019-12-17T09:01:38.736] [DEBUG] default - css中的资源处理完毕!
+[2019-12-17T09:01:38.736] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-17T09:01:38.740] [INFO] default - 处理字体: {}
+[2019-12-17T09:01:38.742] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-12-17T09:01:38.742] [INFO] default - 正在处理script!
+[2019-12-17T09:01:38.752] [INFO] default - 工程中包含多个页面!
+[2019-12-17T09:01:38.752] [INFO] default - js中的资源处理完毕!
+[2019-12-17T09:01:38.753] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"tagcanvas.min","src":"./src/resource/tagcanvas.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-17T09:01:38.753] [DEBUG] default - 外部脚本数量: 3
+[2019-12-17T09:01:38.753] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-17T09:01:38.753] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-17T09:01:38.753] [DEBUG] default - 处理脚本: tagcanvas.min
+[2019-12-17T09:01:38.753] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:01:38.753] [DEBUG] default - 处理脚本: main
+[2019-12-17T09:01:38.753] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:01:38.753] [DEBUG] default - 输出scriptData
+[2019-12-17T09:01:38.755] [DEBUG] default - 准备输出html!
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:01:38.755] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/home.png
+[2019-12-17T09:01:38.756] [INFO] default - 包含有页面切换动画!
+[2019-12-17T09:01:38.756] [INFO] default - 动画列表: rotateRightSideFirst,moveFromRight,delay200,rotateLeftSideFirst,moveFromLeft
+[2019-12-17T09:01:38.757] [INFO] default - 编译结束!
+[2019-12-17T09:01:38.758] [INFO] default - 发送页面需要刷新命令!
+[2019-12-17T09:01:38.770] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\owo.main.css
+[2019-12-17T09:01:38.771] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-17T09:01:38.771] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:01:38.783] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\main.js
+[2019-12-17T09:01:38.785] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:01:38.795] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\tagcanvas.min.js
+[2019-12-17T09:03:02.318] [INFO] default - file change: owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:03:02.318] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-17T09:03:02.318] [INFO] default - 程序运行目录: D:\work\人事年终报道H5
+[2019-12-17T09:03:02.318] [INFO] default - 刷新模式,变化目录: owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:03:02.318] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-17T09:03:02.318] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-17T09:03:02.318] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-17T09:03:02.318] [INFO] default - 开始处理模块: one
+[2019-12-17T09:03:02.367] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-12-17T09:03:02.371] [DEBUG] default - 页面one处理用时: 53 毫秒!
+[2019-12-17T09:03:02.371] [INFO] default - 开始处理模块: two
+[2019-12-17T09:03:02.382] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-12-17T09:03:02.385] [DEBUG] default - 页面two处理用时: 14 毫秒!
+[2019-12-17T09:03:02.385] [INFO] default - 开始处理模块: three
+[2019-12-17T09:03:02.395] [INFO] default - 开始处理模块: tagCloud
+[2019-12-17T09:03:02.395] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\af5a0e3300f19a05be195f4663973d3a.owo
+[2019-12-17T09:03:02.409] [DEBUG] default - 缓存模板: tagCloudhttps://owo.ink/public/0db495367f5dbb795815438280175ad7.page
+[2019-12-17T09:03:02.415] [DEBUG] default - 模块tagCloud处理用时: 21 毫秒!
+[2019-12-17T09:03:02.417] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-12-17T09:03:02.418] [DEBUG] default - 页面three处理用时: 33 毫秒!
+[2019-12-17T09:03:02.418] [INFO] default - 开始处理模块: four
+[2019-12-17T09:03:02.425] [INFO] default - 开始处理模块: a5Jkh9zomp95ftbW
+[2019-12-17T09:03:02.425] [DEBUG] default - 使用文件缓存:D:\work\人事年终报道H5\owo_modules\adac7da517e800aaae6c0afedd423696.owo
+[2019-12-17T09:03:02.433] [DEBUG] default - 缓存模板: a5Jkh9zomp95ftbWhttps://owo.ink/public/f6f3e7e8691c2cf683f992fe7f24f22a.page
+[2019-12-17T09:03:02.440] [DEBUG] default - 模块a5Jkh9zomp95ftbW处理用时: 15 毫秒!
+[2019-12-17T09:03:02.440] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-12-17T09:03:02.441] [DEBUG] default - 页面four处理用时: 23 毫秒!
+[2019-12-17T09:03:02.441] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/title.png
+[2019-12-17T09:03:02.441] [DEBUG] default - css中的资源处理完毕!
+[2019-12-17T09:03:02.441] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-17T09:03:02.444] [INFO] default - 处理字体: {}
+[2019-12-17T09:03:02.445] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-12-17T09:03:02.445] [INFO] default - 正在处理script!
+[2019-12-17T09:03:02.458] [INFO] default - 工程中包含多个页面!
+[2019-12-17T09:03:02.459] [INFO] default - js中的资源处理完毕!
+[2019-12-17T09:03:02.459] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"tagcanvas.min","src":"./src/resource/tagcanvas.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-17T09:03:02.459] [DEBUG] default - 外部脚本数量: 3
+[2019-12-17T09:03:02.459] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-17T09:03:02.459] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-17T09:03:02.459] [DEBUG] default - 处理脚本: tagcanvas.min
+[2019-12-17T09:03:02.459] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:03:02.459] [DEBUG] default - 处理脚本: main
+[2019-12-17T09:03:02.459] [INFO] default - 读取文件: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:03:02.459] [DEBUG] default - 输出scriptData
+[2019-12-17T09:03:02.460] [DEBUG] default - 准备输出html!
+[2019-12-17T09:03:02.460] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/next.png
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/bg-h5.jpg
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/last.png
+[2019-12-17T09:03:02.461] [DEBUG] default - 忽略文件: D:/work/人事年终报道H5/src/resource/home.png
+[2019-12-17T09:03:02.462] [INFO] default - 包含有页面切换动画!
+[2019-12-17T09:03:02.462] [INFO] default - 动画列表: rotateRightSideFirst,moveFromRight,delay200,rotateLeftSideFirst,moveFromLeft
+[2019-12-17T09:03:02.463] [INFO] default - 编译结束!
+[2019-12-17T09:03:02.463] [INFO] default - 发送页面需要刷新命令!
+[2019-12-17T09:03:02.464] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\css\owo.main.css
+[2019-12-17T09:03:02.465] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\main.js
+[2019-12-17T09:03:02.465] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-17T09:03:02.465] [INFO] default - 读取成功: D:\work\人事年终报道H5\src\resource\tagcanvas.min.js
+[2019-12-17T09:03:02.466] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\main.js
+[2019-12-17T09:03:02.466] [INFO] default - 写入文件: D:\work\人事年终报道H5\dist\static\js\tagcanvas.min.js
